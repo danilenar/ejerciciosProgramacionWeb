@@ -1,0 +1,38 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+sidebar {
+    background-color: coral;
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tituloPrincipal {
+    min-width: 75vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.quarter {
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.quarter h2, sidebar h1 {
+    color: aliceblue;
+}
