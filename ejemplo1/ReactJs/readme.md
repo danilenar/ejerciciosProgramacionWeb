@@ -10,4 +10,6 @@
 
 `npm run dev`
 
-4) La salida mostrara una url local (tipicamente `localhost:3000`) donde previsualizar el resultado del codigo
+4) La salida mostrara una url local (tipicamente `localhost:3000`) donde previsualizar el resultado del codigo:
+
+<img src='salida.png'></img>
