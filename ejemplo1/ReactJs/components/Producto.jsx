@@ -9,10 +9,19 @@ export default ({cantidad, nombre, color, onClick}) => {
                 return (<p>{cantidad} unidades</p>)
         }
     }
+
+    var p = null
+    if (nombre === "Leche" && cantidad %2 === 1) {
+        p = "Lleve otra es Gratis!"
+    } else {
+        p = null
+    }   
+
     return (
     <div className='quarter' onClick={onClick}>
         <h2>{nombre}</h2>
         <Leyenda cantidad = {cantidad} nombre={nombre}/>    
+        <p>{p}</p>
         <style jsx>{`
             .quarter {
                 width: 40%;
